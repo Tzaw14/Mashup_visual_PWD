@@ -15,7 +15,5 @@ mashup-interactivo/
 1. Cloná este repositorio o descargá el ZIP.
 2. Abrí `index.html` en tu navegador.
 3. Presioná el botón "Iniciar el Coloreado" y usá el mouse dentro de la caja.
-## Licencia
-MIT License – Este proyecto es de código abierto y puede ser reutilizado con fines educativos.
 ## Autor
 Tiziano Zawadski – Estudiante 7º2ºB
