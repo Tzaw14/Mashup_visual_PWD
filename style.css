@@ -1,0 +1,52 @@
+:root {
+  --neon: #ffff66;
+  --oscuro-base: #0a0a0a;
+  --oscuro-intermedio: #333333;
+  --azul-morado: #b34747;
+  --azul-claro: #ff704d;
+  --rosa-claro: #ffe57f;
+  --texto: #f0f0f0;
+  --error: #ff4d4d;
+  --rojo: #ff1a1a;
+  --deshabilitado: #4d4d4d;
+}
+
+body {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--oscuro-base);
+  color: var(--texto);
+  padding: 20px;
+}
+
+h1, h3 {
+  color: var(--neon);
+  text-shadow: 0 0 8px var(--neon);
+}
+
+#start-button {
+  margin: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: var(--azul-claro);
+  color: black;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--rosa-claro);
+  transition: background-color 0.3s;
+}
+
+#start-button:hover {
+  background-color: var(--rosa-claro);
+}
+
+#p5-container {
+  background-color: var(--oscuro-intermedio);
+  border: 3px solid var(--neon);
+  padding: 10px;
+  margin: 20px auto;    
+  width: fit-content;
+  box-shadow: 0 0 20px var(--neon);
+  border-radius: 12px;
+}
